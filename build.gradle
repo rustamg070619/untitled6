@@ -15,7 +15,6 @@ apply plugin: 'jacoco'
 repositories {
     mavenCentral()
 }
-
 test {
     useJUnitPlatform()
     finalizedBy jacocoTestReport
