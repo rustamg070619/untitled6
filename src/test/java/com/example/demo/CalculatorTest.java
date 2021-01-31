@@ -11,7 +11,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 class CalculatorTest {
     @Autowired
     private Calculator calculator;
-
     @Test
     void shouldAdd() {
         assertThat(calculator.add(2, 2)).isEqualTo(4);
