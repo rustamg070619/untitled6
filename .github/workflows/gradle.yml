@@ -25,5 +25,5 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - uses: codecov/codecov-action@v1
-        with:
+      with:
           token: ${{ce87bbc7-c1c8-4b99-ad60-cf6377213675}} # not required for public repos
