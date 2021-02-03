@@ -24,7 +24,3 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Test Coverage
-      uses: codecov/codecov-action@v1
-      with:
-        token: ce87bbc7-c1c8-4b99-ad60-cf6377213675 
